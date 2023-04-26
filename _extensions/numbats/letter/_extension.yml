@@ -1,0 +1,8 @@
+title: Tilburg University Letter Format Template
+author: Aisja Thijssen
+version: 0.1.0
+contributes:
+  formats:
+    pdf:
+      template: uvtletter.tex
+      pdf-engine: pdflatex
