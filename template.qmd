@@ -5,6 +5,7 @@ fromtitle: Professor
 fromWWW: curie.com
 fromemail: Pierre.Curie@monash.edu
 fromphone: +61 3 9905 5555
+fromdepartment: Department of Econometrics \& Business Statistics
 fromsignature: sigfile.png
 toname: Helen of Troy
 toaddress:
