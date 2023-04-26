@@ -1,10 +1,10 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# Monash Letter Format Template
+# Tilburg University Letter Format Template
 
 This is a Quarto template that assists you in creating a letter on
-Monash University letterhead
+Tilburg University letterhead
 
 ## Creating a new letter
 
@@ -12,7 +12,7 @@ You can use this as a template to create a letter. To do this, use the
 following command:
 
 ``` bash
-quarto use template numbats/monash-quarto-letter
+quarto use template AisjaThijssen/uvt-quarto-letter
 ```
 
 This will install the extension and create an example qmd file that you
@@ -25,7 +25,7 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ``` bash
-quarto install extension numbats/monash-quarto-letter
+quarto install extension AisjaThijssen/uvt-quarto-letter
 ```
 
 ## Example
