@@ -69,7 +69,7 @@ $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $else$
 \usepackage{geometry}
-\geometry{a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm}
+\geometry{a4paper, top=4cm, bottom=2cm, left=2cm, right=2cm}
 $endif$
 $if(lang)$
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -171,11 +171,11 @@ $endif$
 
 \makeatletter
 \def\ps@uvt{%
-\begin{textblock}{5}(2,1)
-\includegraphics[height=2cm]{$logo$}
+\begin{textblock}{8}(2,1)
+\includegraphics[height=3cm]{$logo$}
 \end{textblock}%
 \begin{textblock}{8}(11,1.5)
-{\fontsize{9}{8}\selectfont\sffamily\color[HTML]{003466}%
+{\fontsize{10}{8}\selectfont\sffamily\color[HTML]{003466}%
 \begin{flushright}
 \textbf{$fromname$}, $fromqualifications$\\
 $fromtitle$\\
@@ -227,6 +227,7 @@ www.tilburguniversity.edu\\}
 $for(header-includes)$
 $header-includes$
 $endfor$
+
 
 $if(date)$
 \date{$date$}
