@@ -1,13 +1,6 @@
 \documentclass[$if(fontsize)$$fontsize$$else$11pt$endif$,a4paper,$for(classoption)$$classoption$$sep$,$endfor$]{letter}
-$if(fontfamily)$
-\usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
-$else$
-\usepackage{bera}
-$endif$
-$if(linestretch)$
-\usepackage{setspace}
-\setstretch{$linestretch$}
-$endif$
+
+\usepackage[default]{lato}
 
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -170,7 +163,7 @@ $if(dir)$
 \fi
 $endif$
 
-\usepackage{color,hyperref,url,fontawesome}
+\usepackage{color,xcolor,hyperref,url,fontawesome}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage[absolute,overlay]{textpos}
 \setlength{\TPHorizModule}{1cm}
@@ -179,36 +172,26 @@ $endif$
 \makeatletter
 \def\ps@uvt{%
 \begin{textblock}{5}(2,1)
-\includegraphics[height=1.5cm]{_extensions/numbats/letter/uvt2}
+\includegraphics[height=2cm]{$logo$}
 \end{textblock}%
-%\begin{textblock}{4}(17,1)
-%\includegraphics[height=1.5cm]{_extensions/numbats/letter/MBSportrait}
-%\end{textblock}%
-\begin{textblock}{10}(1.2,26.4)
-{\fontsize{9}{8}\selectfont\sffamily\color[gray]{0.4}%
-\begin{tabular}{@{}l@{}}
+\begin{textblock}{8}(11,1.5)
+{\fontsize{9}{8}\selectfont\sffamily\color[HTML]{003466}%
+\begin{flushright}
 \textbf{$fromname$}, $fromqualifications$\\
 $fromtitle$\\
 $fromdepartment$\\[0.15cm]
-\faicon{envelope} $fromemail$\quad\faicon{phone} $fromphone$\quad
-\faicon{home} $fromWWW$\\[0.1cm]
-
+\faicon{envelope} $fromemail$\\
+\faicon{phone} $fromphone$\\
+\faicon{home} $fromWWW$\\
+\end{flushright}}
+\end{textblock}%
+\begin{textblock}{18}(1.5,27)
+{\fontsize{9}{8}\selectfont\sffamily\color[gray]{0.4}%
+\centering
 P.O. Box 90153 \textbullet 5000 LE Tilburg \textbullet The Netherlands \textbullet Visiting address \textbullet Warandelaan 2 \textbullet Tilburg \textbullet Telephone +31 13 466 91 11\\
 IBAN NL74ABNA0602142539 \textbullet BIC ABNANL2A \textbullet VAT NL002791250B01\\
-www.tilburguniversity.edu\\
-
-\end{tabular}}
+www.tilburguniversity.edu\\}
 \end{textblock}%
-%\begin{textblock}{\textwidth}(0,0)
-%{\fontsize{9}{8}\selectfont\sffamily\color[gray]{0.4}%
-%\begin{center}
-%P.O. Box 90153 \textbullet 5000 LE Tilburg \textbullet The Netherlands \textbullet Visiting address \textbullet Warandelaan 2 \textbullet Tilburg \textbullet %Telephone +31 13 466 91 11
-
-%IBAN NL74ABNA0602142539 \textbullet BIC ABNANL2A \textbullet VAT NL002791250B01
-
-%www.tilburguniversity.edu
-%\end{center}
-%\end{textblock}%
 \def\thepage{}}
 
 
@@ -239,7 +222,7 @@ www.tilburguniversity.edu\\
 
 % Find signature file
 % Other images include full path in case user sets graphicspath
-\graphicspath{{_extensions/numbats/letter/}}
+\graphicspath{{_extensions/AisjaThijssen/letter/}}
 
 $for(header-includes)$
 $header-includes$

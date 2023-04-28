@@ -12,9 +12,9 @@ library(quarto)
 library(magick)
 
 # Render template
-fs::dir_copy("_extensions/letter", "_extensions/numbats/letter")
+fs::dir_copy("_extensions/letter", "_extensions/AisjaThijssen/letter")
 quarto_render(input = "template.qmd")
-fs::dir_delete("_extensions/numbats")
+fs::dir_delete("_extensions/AisjaThijssen")
 # Convert rendered PDF to PNG
 image_read_pdf("template.pdf", pages = 1) |>
   image_montage(geometry = "x500+25+35", tile = 1, bg = "grey92", shadow = TRUE) |>
@@ -47,6 +47,10 @@ From the quarto project or document directory, run the following command to inst
 ```bash
 quarto install extension AisjaThijssen/uvt-quarto-letter
 ```
+
+## Adding Lato font to your LateX distribution
+
+Download the font from google https://fonts.google.com/specimen/Lato and add the folder to the fonts folder in your local latex distribution.
 
 ## Example
 

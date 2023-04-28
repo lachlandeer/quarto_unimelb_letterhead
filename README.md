@@ -28,6 +28,11 @@ following command to install this format:
 quarto install extension AisjaThijssen/uvt-quarto-letter
 ```
 
+## Adding Lato font to your LateX distribution
+
+Download the font from google https://fonts.google.com/specimen/Lato and
+add the folder to the fonts folder in your local latex distribution.
+
 ## Example
 
 <div>

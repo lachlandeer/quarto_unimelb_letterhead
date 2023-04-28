@@ -7,6 +7,7 @@ fromemail: Pierre.Curie@monash.edu
 fromphone: +61 3 9905 5555
 fromdepartment: Department of Econometrics \& Business Statistics
 fromsignature: sigfile.png
+logo: uvt2.png
 toname: Helen of Troy
 toaddress:
   - University of Greece
@@ -17,6 +18,8 @@ spacing: 1.4
 ps: |
   PS: Lorem ipsum dolor sit amet, *consectetur* adipiscing elit.
 format: letter-pdf
+#fontsize: 11pt
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique eleifend. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor [egestas fringilla](http://example.com):
