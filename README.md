@@ -12,7 +12,7 @@ You can use this as a template to create a letter. To do this, use the
 following command:
 
 ``` bash
-quarto use template AisjaThijssen/uvt-quarto-letter
+quarto use template tilburgsciencehub/uvt-quarto-letter
 ```
 
 This will install the extension and create an example qmd file that you
@@ -25,7 +25,7 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ``` bash
-quarto install extension AisjaThijssen/uvt-quarto-letter
+quarto install extension tilburgsciencehub/uvt-quarto-letter
 ```
 
 ## Adding Lato font to your LateX distribution
