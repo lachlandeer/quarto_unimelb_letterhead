@@ -1,8 +1,8 @@
-title: Tilburg University Letter Format Template
-author: Aisja Thijssen
+title: University of Melbourne Letter Format Template
+author: Lachlan Deer
 version: 0.1.0
 contributes:
   formats:
     pdf:
-      template: uvtletter.tex
+      template: unimelbletter.tex
       pdf-engine: pdflatex
