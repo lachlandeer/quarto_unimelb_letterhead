@@ -4,5 +4,5 @@ version: 0.1.0
 contributes:
   formats:
     pdf:
-      template: unimelbletter.tex
+      template: unimelb.tex
       pdf-engine: pdflatex
